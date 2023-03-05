@@ -32,7 +32,6 @@ public class StepDefinitions {
     @When("I enter {string} as the number")
     public void i_enter_as_the_number(String number) {
         factorialPage.enterNumber(number);
-
     }
 
     @When("I click the calculate button")
