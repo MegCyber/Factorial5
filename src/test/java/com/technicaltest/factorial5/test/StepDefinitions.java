@@ -49,5 +49,4 @@ public class StepDefinitions {
     public void teardown() {
         driver.close();
     }
-
 }
